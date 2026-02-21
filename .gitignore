@@ -1,0 +1,28 @@
+# Build artifacts
+obj/
+objrec
+
+# Data outputs (generated at runtime)
+data/task1_threshold/
+data/task2_morphology/
+data/task3_segmentation/
+data/task4_features/
+data/task5_training/
+data/task6_classification/
+data/task7_evaluation/
+data/task8_embeddings/
+
+# Keep the data directory structure
+!data/.gitkeep
+
+# Models (too large for git)
+models/*.onnx
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
