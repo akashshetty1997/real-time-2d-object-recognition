@@ -38,7 +38,6 @@ make
 ```
 
 ## Usage
-
 ```bash
 # Live camera mode
 ./objrec
@@ -51,6 +50,15 @@ make
 
 # Batch mode (auto-process all images for report)
 ./objrec --batch dev_images/
+
+# Task 7: Generate hand-crafted features confusion matrix
+./objrec --evaluate data/task7_evaluation/eval_images.csv
+
+# Task 8: Train ResNet18 embedding database
+./objrec --embed-train data/task8_embeddings/train_images.csv
+
+# Task 8: Generate ResNet18 embedding confusion matrix
+./objrec --embed-evaluate data/task7_evaluation/eval_images.csv
 ```
 
 ## Key Controls
@@ -62,11 +70,13 @@ make
 | `s` | Toggle segmentation view |
 | `f` | Toggle features overlay |
 | `c` | Toggle classification mode |
+| `e` | Toggle between Hand-crafted and ResNet18 mode |
 | `l` | Label/train current object |
 | `p` | Save screenshots to task folders |
 | `n` | Next image (directory mode) |
 | `b` | Previous image (directory mode) |
 | `q` / `ESC` | Quit |
+
 
 ## Project Structure
 
