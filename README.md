@@ -3,7 +3,7 @@
 
 **CS 5330 - Pattern Recognition & Computer Vision**  
 **Project 3**  
-**Author:** Akash Shridhar Shetty | Skandhan Madhusudhana
+**Author:** Akash Shridhar Shetty , Skandhan Madhusudhana
 
 ## Overview
 

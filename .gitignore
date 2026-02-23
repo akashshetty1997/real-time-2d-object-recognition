@@ -7,10 +7,7 @@ data/task1_threshold/
 data/task2_morphology/
 data/task3_segmentation/
 data/task4_features/
-data/task5_training/
 data/task6_classification/
-data/task7_evaluation/
-data/task8_embeddings/
 
 # Keep the data directory structure
 !data/.gitkeep

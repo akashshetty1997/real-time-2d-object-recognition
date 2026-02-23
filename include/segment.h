@@ -1,5 +1,5 @@
 /*
- * Name: Akash Shridhar Shetty
+ * Name: Akash Shridhar Shetty , Skandhan Madhsudhana
  * Date: February 2025
  * File: include/segment.h
  *

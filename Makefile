@@ -1,5 +1,5 @@
 # Project 3: Real-time 2D Object Recognition
-# Name: Akash Shridhar Shetty
+# Name: Akash Shridhar Shetty , Skandhan Madhusudhana
 # Date: February 2025
 # CS 5330 - Pattern Recognition & Computer Vision
 #
@@ -23,7 +23,7 @@ OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRCS))
 all: dirs $(BIN)
 
 dirs:
-	@mkdir -p $(OBJ_DIR) data models
+	@mkdir -p $(OBJ_DIR) data models data/task8_embeddings
 
 $(BIN): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LIBS)

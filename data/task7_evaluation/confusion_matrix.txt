@@ -1,0 +1,12 @@
+=== CONFUSION MATRIX ===
+Rows = True Label, Cols = Predicted Label
+
+     TRUE\PRED        bottle           fan     hairdryer          iron        orange
+------------------------------------------------------------------------------------
+        bottle             2             0             0             0             0
+           fan             1             2             0             0             0
+     hairdryer             0             0             3             0             0
+          iron             0             0             1             1             0
+        orange             2             1             0             0             0
+
+Correct: 8/14  Accuracy: 57.1%

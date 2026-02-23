@@ -1,0 +1,15 @@
+image_path,true_label
+dev_images/bottle_4.jpeg,bottle
+dev_images/bottle_5.jpeg,bottle
+dev_images/bottle_6.jpeg,bottle
+dev_images/fan_4.jpeg,fan
+dev_images/fan_5.jpeg,fan
+dev_images/fan_6.jpeg,fan
+dev_images/hairdryer_4.jpeg,hairdryer
+dev_images/hairdryer_5.jpeg,hairdryer
+dev_images/hairdryer_6.jpeg,hairdryer
+dev_images/orange_4.jpeg,orange
+dev_images/orange_5.jpeg,orange
+dev_images/orange_6.jpeg,orange
+dev_images/iron_5.jpeg,iron
+dev_images/iron_6.jpeg,iron

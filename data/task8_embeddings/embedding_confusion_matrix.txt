@@ -1,0 +1,16 @@
+=== EMBEDDING CONFUSION MATRIX ===
+Rows = True Label, Cols = Predicted Label
+
+     TRUE\PRED        bottle           fan     hairdryer          iron        orange
+------------------------------------------------------------------------------------
+        bottle             2             0             1             0             0
+           fan             1             2             0             0             0
+     hairdryer             0             0             3             0             0
+          iron             0             0             2             0             0
+        orange             0             0             0             0             3
+
+Correct: 10/14  Accuracy: 71.4%
+
+Comparison:
+  Hand-crafted features: 58.3%
+  ResNet18 embeddings:   71.4%

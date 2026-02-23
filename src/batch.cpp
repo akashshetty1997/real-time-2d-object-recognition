@@ -1,5 +1,5 @@
 /*
- * Name: Akash Shridhar Shetty
+ * Name: Akash Shridhar Shetty, Skandhan Madhusudhana
  * Date: February 2025
  * File: src/batch.cpp
  *
